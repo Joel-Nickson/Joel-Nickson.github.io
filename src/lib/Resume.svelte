@@ -1,145 +1,143 @@
-<article class="resume" data-page="resume">
-  <header>
-    <h2 class="h2 article-title">Resume</h2>
-  </header>
+<header>
+  <h2 class="h2 article-title">Resume</h2>
+</header>
 
-  <section class="timeline">
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="book-outline" />
-      </div>
-
-      <h3 class="h3">Education</h3>
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="book-outline" />
     </div>
 
-    <ol class="timeline-list">
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">University school of the arts</h4>
+    <h3 class="h3">Education</h3>
+  </div>
 
-        <span>2007 — 2008</span>
+  <ol class="timeline-list">
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">University school of the arts</h4>
 
-        <p class="timeline-text">
-          Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
-          atque corrupti, quos dolores et quas molestias exceptur.
-        </p>
-      </li>
+      <span>2007 — 2008</span>
 
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">New york academy of art</h4>
+      <p class="timeline-text">
+        Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
+        atque corrupti, quos dolores et quas molestias exceptur.
+      </p>
+    </li>
 
-        <span>2006 — 2007</span>
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">New york academy of art</h4>
 
-        <p class="timeline-text">
-          Ratione voluptatem sequi nesciunt, facere quisquams facere menda
-          ossimus, omnis voluptas assumenda est omnis..
-        </p>
-      </li>
+      <span>2006 — 2007</span>
 
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">High school of art and design</h4>
+      <p class="timeline-text">
+        Ratione voluptatem sequi nesciunt, facere quisquams facere menda
+        ossimus, omnis voluptas assumenda est omnis..
+      </p>
+    </li>
 
-        <span>2002 — 2004</span>
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">High school of art and design</h4>
 
-        <p class="timeline-text">
-          Duis aute irure dolor in reprehenderit in voluptate, quila voluptas
-          mag odit aut fugit, sed consequuntur magni dolores eos.
-        </p>
-      </li>
-    </ol>
-  </section>
+      <span>2002 — 2004</span>
 
-  <section class="timeline">
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="book-outline" />
-      </div>
+      <p class="timeline-text">
+        Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag
+        odit aut fugit, sed consequuntur magni dolores eos.
+      </p>
+    </li>
+  </ol>
+</section>
 
-      <h3 class="h3">Experience</h3>
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="book-outline" />
     </div>
 
-    <ol class="timeline-list">
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Creative director</h4>
+    <h3 class="h3">Experience</h3>
+  </div>
 
-        <span>2015 — Present</span>
+  <ol class="timeline-list">
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Creative director</h4>
 
-        <p class="timeline-text">
-          Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit
-          atque corrupti, quos dolores et qvuas molestias exceptur.
-        </p>
-      </li>
+      <span>2015 — Present</span>
 
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Art director</h4>
+      <p class="timeline-text">
+        Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque
+        corrupti, quos dolores et qvuas molestias exceptur.
+      </p>
+    </li>
 
-        <span>2013 — 2015</span>
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Art director</h4>
 
-        <p class="timeline-text">
-          Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
-          atque corrupti, quos dolores et quas molestias exceptur.
-        </p>
-      </li>
+      <span>2013 — 2015</span>
 
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Web designer</h4>
+      <p class="timeline-text">
+        Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
+        atque corrupti, quos dolores et quas molestias exceptur.
+      </p>
+    </li>
 
-        <span>2010 — 2013</span>
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Web designer</h4>
 
-        <p class="timeline-text">
-          Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
-          atque corrupti, quos dolores et quas molestias exceptur.
-        </p>
-      </li>
-    </ol>
-  </section>
+      <span>2010 — 2013</span>
 
-  <section class="skill">
-    <h3 class="h3 skills-title">My skills</h3>
+      <p class="timeline-text">
+        Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
+        atque corrupti, quos dolores et quas molestias exceptur.
+      </p>
+    </li>
+  </ol>
+</section>
 
-    <ul class="skills-list content-card">
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Web design</h5>
-          <data value="80">80%</data>
-        </div>
+<section class="skill">
+  <h3 class="h3 skills-title">My skills</h3>
 
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 80%;" />
-        </div>
-      </li>
+  <ul class="skills-list content-card">
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Web design</h5>
+        <data value="80">80%</data>
+      </div>
 
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Graphic design</h5>
-          <data value="70">70%</data>
-        </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 80%;" />
+      </div>
+    </li>
 
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 70%;" />
-        </div>
-      </li>
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Graphic design</h5>
+        <data value="70">70%</data>
+      </div>
 
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Branding</h5>
-          <data value="90">90%</data>
-        </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 70%;" />
+      </div>
+    </li>
 
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 90%;" />
-        </div>
-      </li>
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Branding</h5>
+        <data value="90">90%</data>
+      </div>
 
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">WordPress</h5>
-          <data value="50">50%</data>
-        </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 90%;" />
+      </div>
+    </li>
 
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 50%;" />
-        </div>
-      </li>
-    </ul>
-  </section>
-</article>
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">WordPress</h5>
+        <data value="50">50%</data>
+      </div>
+
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 50%;" />
+      </div>
+    </li>
+  </ul>
+</section>
