@@ -1,20 +1,39 @@
-<aside class="sidebar" data-sidebar>
+<script>
+  import { profile } from "./stores";
+  let {
+    name,
+    email,
+    mobile,
+    mobilenowithoutspace,
+    linkedin,
+    github,
+    twitter,
+    location,
+  } = $profile;
+  let isMobileMenu = "active";
+</script>
+
+<aside class="sidebar {isMobileMenu}" data-sidebar>
   <div class="sidebar-info">
     <figure class="avatar-box">
-      <img
-        src="./src/assets/images/my-avatar.png"
-        alt="Richard hanrick"
-        width="80"
-      />
+      <img src="./src/assets/images/my-avatar.png" alt={name} width="80" />
     </figure>
 
     <div class="info-content">
-      <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+      <h1 class="name" title={name}>{name}</h1>
 
       <p class="title">Web developer</p>
     </div>
 
-    <button class="info_more-btn" data-sidebar-btn>
+    <button
+      on:click={() => {
+        isMobileMenu == "active"
+          ? (isMobileMenu = "")
+          : (isMobileMenu = "active");
+      }}
+      class="info_more-btn"
+      data-sidebar-btn
+    >
       <span>Show Contacts</span>
 
       <ion-icon name="chevron-down" />
@@ -33,9 +52,7 @@
         <div class="contact-info">
           <p class="contact-title">Email</p>
 
-          <a href="mailto:richard@example.com" class="contact-link"
-            >richard@example.com</a
-          >
+          <a href="mailto:{email}" class="contact-link">{email}</a>
         </div>
       </li>
 
@@ -47,7 +64,7 @@
         <div class="contact-info">
           <p class="contact-title">Phone</p>
 
-          <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+          <a href="tel:{mobilenowithoutspace}" class="contact-link">{mobile}</a>
         </div>
       </li>
 
@@ -59,7 +76,7 @@
         <div class="contact-info">
           <p class="contact-title">Birthday</p>
 
-          <time datetime="1982-06-23">June 23, 1982</time>
+          <time datetime="2000-09-29">Sep 29, 2000</time>
         </div>
       </li>
 
@@ -71,7 +88,7 @@
         <div class="contact-info">
           <p class="contact-title">Location</p>
 
-          <address>Sacramento, California, USA</address>
+          <address>{location}</address>
         </div>
       </li>
     </ul>
@@ -80,20 +97,20 @@
 
     <ul class="social-list">
       <li class="social-item">
-        <a href="#" class="social-link">
-          <ion-icon name="logo-facebook" />
+        <a href={github} class="social-link">
+          <ion-icon name="logo-github" />
         </a>
       </li>
 
       <li class="social-item">
-        <a href="#" class="social-link">
+        <a href={twitter} class="social-link">
           <ion-icon name="logo-twitter" />
         </a>
       </li>
 
       <li class="social-item">
-        <a href="#" class="social-link">
-          <ion-icon name="logo-instagram" />
+        <a href={linkedin} class="social-link">
+          <ion-icon name="logo-linkedin" />
         </a>
       </li>
     </ul>

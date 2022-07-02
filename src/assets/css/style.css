@@ -365,6 +365,10 @@ main {
     border-radius: 20px;
 }
 
+.avatar-box img {
+    border-radius: 20px;
+}
+
 .info-content .name {
     color: var(--white-2);
     font-size: var(--fs-3);
@@ -1487,7 +1491,7 @@ textarea.form-input::-webkit-resizer {
     }
 
     .sidebar.active {
-        max-height: 584px;
+        max-height: max-content;
     }
 
     .sidebar-info {
