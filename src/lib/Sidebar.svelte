@@ -9,7 +9,7 @@
     github,
     twitter,
     location,
-  } = $profile;
+  } = profile;
   let isMobileMenu = "active";
 </script>
 

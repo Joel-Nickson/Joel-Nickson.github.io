@@ -105,7 +105,7 @@ export const testimonials = [
     },
 ];
 
-export const profile = writable({
+export const profile = {
     'name': 'Joel Nickson',
     'email': 'notjoeln@gmail.com',
     'mobile': '(+91) XXX-XXX-XXXX',
@@ -114,4 +114,4 @@ export const profile = writable({
     'github': 'http://github.com/Joel-Nickson',
     'twitter': 'https://twitter.com/JoelNickson5',
     'location': 'Kochi, Kerala, India',
-})
+}
