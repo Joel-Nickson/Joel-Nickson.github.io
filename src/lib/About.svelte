@@ -26,6 +26,6 @@
 </section>
 
 <Services />
-<Testimonials />
+<!-- <Testimonials />
 <TestimonialModal />
-<Clients />
+<Clients /> -->
