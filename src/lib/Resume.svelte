@@ -1,12 +1,5 @@
 <script lang="ts">
-  import {
-    education,
-    experiences,
-    projects,
-    skills,
-    selectSkills,
-    projectsComingSoon,
-  } from "./stores";
+  import { education, experiences, skills, selectSkills } from "./stores";
 
   let skill = selectSkills.sort((a, b) => {
     return parseInt(b.level) - parseInt(a.level);
@@ -61,30 +54,6 @@
         <p class="timeline-text">
           Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
           atque corrupti, quos dolores et quas molestias exceptur.
-        </p>
-      </li>
-    {/each}
-  </ol>
-</section>
-
-<section class="timeline">
-  <div class="title-wrapper">
-    <div class="icon-box">
-      <ion-icon name="book-outline" />
-    </div>
-
-    <h3 class="h3">Projects</h3>
-  </div>
-
-  <ol class="timeline-list">
-    {#each projects as item}
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">{item.company}</h4>
-
-        <span>{item.start} — {item.end}</span>
-
-        <p class="timeline-text">
-          {item.description}
         </p>
       </li>
     {/each}

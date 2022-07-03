@@ -360,30 +360,6 @@ export const skills = [
 
 export const selectSkills = [
     {
-        'name': 'JavaScript',
-        'value': '70',
-        'level': 'Intermediate',
-        'url': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-    },
-    {
-        'name': 'ReactJS',
-        'value': '60',
-        'level': 'Intermediate',
-        'url': 'https://reactjs.org/',
-    },
-    {
-        'name': 'Svelte',
-        'value': '50',
-        'level': 'Beginner',
-        'url': 'https://svelte.dev/',
-    },
-    {
-        'name': 'Golang',
-        'value': '80',
-        'level': 'Intermediate',
-        'url': 'https://golang.org/',
-    },
-    {
         'name': 'Python',
         'value': '90',
         'level': 'Expert',
@@ -408,9 +384,33 @@ export const selectSkills = [
         'url': 'https://git-scm.com/',
     },
     {
-        'name': 'Java',
+        'name': 'Golang',
         'value': '80',
         'level': 'Intermediate',
+        'url': 'https://golang.org/',
+    },
+    {
+        'name': 'JavaScript',
+        'value': '70',
+        'level': 'Intermediate',
+        'url': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    },
+    {
+        'name': 'Java',
+        'value': '60',
+        'level': 'Intermediate',
         'url': 'https://www.java.com/',
+    },
+    {
+        'name': 'ReactJS',
+        'value': '60',
+        'level': 'Intermediate',
+        'url': 'https://reactjs.org/',
+    },
+    {
+        'name': 'Svelte',
+        'value': '60',
+        'level': 'Beginner',
+        'url': 'https://svelte.dev/',
     },
 ]
