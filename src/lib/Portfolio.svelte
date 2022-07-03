@@ -1,8 +1,6 @@
 <script>
-  import { portfolioContent, portfolioCategory } from "./stores";
+  import { portfolio_content, portfolio_category } from "./stores";
   let currCategory = "all";
-  let portfolio_category = portfolioCategory;
-  let portfolio_content = portfolioContent;
   const selectCategory = (e) =>
     (currCategory = e.target.innerText.toLowerCase());
 </script>
