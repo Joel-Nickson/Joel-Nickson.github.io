@@ -155,6 +155,28 @@ export const experiences = [
     }
 ]
 
+export const services = [{
+    src: "./src/assets/images/icon-design.svg",
+    alt: "design icon",
+    title: "Web design",
+    desc: 'The most modern and high-quality design made at a professional level.'
+}, {
+    src: "./src/assets/images/icon-dev.svg",
+    alt: "Web development icon",
+    title: 'Web development',
+    desc: 'High-quality development of sites at the professional level.'
+}, {
+    src: "./src/assets/images/icon-app.svg",
+    alt: "mobile app icon",
+    title: 'Mobile apps',
+    desc: 'Basic development of applications for iOS and Android.'
+}, {
+    src: "./src/assets/images/icon-photo.svg",
+    alt: "camera icon",
+    title: 'Artificial Intelligence',
+    desc: 'Learning ML and DL from deeplearning.ai & MIT OCW.'
+}]
+
 export const projects = [
     {
         'company': 'Meilisearch',
@@ -208,7 +230,6 @@ export const projects = [
         'url': 'https://github.com/Co-Science/tele-go-m',
     },
 ]
-
 
 export const projectsComingSoon = [
     {
@@ -338,7 +359,6 @@ export const skills = [
         'url': 'https://flutter.dev/',
     }
 ]
-
 
 export const selectSkills = [
     {
