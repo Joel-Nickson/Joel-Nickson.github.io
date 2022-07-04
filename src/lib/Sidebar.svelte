@@ -1,5 +1,10 @@
 <script>
   import { profile } from "./stores";
+  let mobilenowithoutspace = profile.mobile
+    .replaceAll("-", "")
+    .replaceAll(" ", "")
+    .replace(")", "")
+    .replace("(", "");
   let isMobileMenu = "active";
 </script>
 
@@ -7,7 +12,7 @@
   <div class="sidebar-info">
     <figure class="avatar-box">
       <img
-        src="./src/assets/images/my-avatar.png"
+        src="./src/assets/images/my-avatar2.png"
         alt={profile.name}
         width="80"
       />
@@ -60,7 +65,7 @@
         <div class="contact-info">
           <p class="contact-title">Phone</p>
 
-          <a href="tel:{profile.mobilenowithoutspace}" class="contact-link"
+          <a href="tel:{mobilenowithoutspace}" class="contact-link"
             >{profile.mobile}</a
           >
         </div>

@@ -94,7 +94,6 @@ export const profile = {
     'email': 'notjoeln@gmail.com',
     'mobile': '(+91) XXX-XXX-XXXX',
     'role': 'Web Developer',
-    'mobilenowithoutspace': '+91XXXXXXXXXX',
     'linkedin': 'https://www.linkedin.com/in/joel-nickson-0a27721a5/',
     'github': 'http://github.com/Joel-Nickson',
     'twitter': 'https://twitter.com/JoelNickson5',
@@ -166,15 +165,15 @@ export const services = [{
     title: 'Web development',
     desc: 'High-quality development of sites at the professional level.'
 }, {
-    src: "./src/assets/images/icon-app.svg",
-    alt: "mobile app icon",
-    title: 'Mobile apps',
-    desc: 'Basic development of applications for iOS and Android.'
-}, {
     src: "./src/assets/images/icon-photo.svg",
     alt: "camera icon",
     title: 'Artificial Intelligence',
     desc: 'Learning ML and DL from deeplearning.ai & MIT OCW.'
+}, {
+    src: "./src/assets/images/icon-app.svg",
+    alt: "mobile app icon",
+    title: 'Mobile apps',
+    desc: 'Basic development of applications for iOS and Android.'
 }]
 
 export const projects = [
@@ -233,7 +232,7 @@ export const projects = [
 
 export const projectsComingSoon = [
     {
-        'company': 'Kerala Govn',
+        'company': '',
         'title': '',
         'type': ['Open Source', 'Frontend', 'Backend', 'Full Stack'],
         'start': '8/21',
@@ -251,7 +250,7 @@ export const projectsComingSoon = [
         'end': '',
         'language': ['JavaScript', 'HTML', 'CSS'],
         'framework': ['ReactJS', 'NextJS'],
-        'description': 'ML ops',
+        'description': '',
         'url': '',
     },
     {
@@ -262,103 +261,12 @@ export const projectsComingSoon = [
         'end': '',
         'language': [],
         'framework': [],
-        'description': 'ML ops',
+        'description': '',
         'url': '',
     },
 ]
 
-export const skills = [
-    {
-        'name': 'JavaScript',
-        'value': '70',
-        'level': 'Intermediate',
-        'url': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-    },
-    {
-        'name': 'ReactJS',
-        'value': '60',
-        'level': 'Intermediate',
-        'url': 'https://reactjs.org/',
-    },
-    {
-        'name': 'Angular',
-        'value': '50',
-        'level': 'Beginner',
-        'url': 'https://angular.io/',
-    },
-    {
-        'name': 'Svelte',
-        'value': '50',
-        'level': 'Beginner',
-        'url': 'https://svelte.dev/',
-    },
-    {
-        'name': 'NodeJS',
-        'value': '50',
-        'level': 'Intermediate',
-        'url': 'https://nodejs.org/en/',
-    },
-    {
-        'name': 'Golang',
-        'value': '80',
-        'level': 'Intermediate',
-        'url': 'https://golang.org/',
-    },
-    {
-        'name': 'Python',
-        'value': '90',
-        'level': 'Expert',
-        'url': 'https://www.python.org/',
-    },
-    {
-        'name': 'Django',
-        'value': '60',
-        'level': 'Intermediate',
-        'url': 'https://www.djangoproject.com/',
-    },
-    {
-        'name': 'HTML',
-        'value': '90',
-        'level': 'Expert',
-        'url': 'https://developer.mozilla.org/en-US/docs/Web/HTML',
-    },
-    {
-        'name': 'CSS',
-        'value': '90',
-        'level': 'Expert',
-        'url': 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-    },
-    {
-        'name': 'Git',
-        'value': '90',
-        'level': 'Intermediate',
-        'url': 'https://git-scm.com/',
-    },
-    {
-        'name': 'Java',
-        'value': '80',
-        'level': 'Intermediate',
-        'url': 'https://www.java.com/',
-    },
-    {
-        'name': 'C',
-        'value': '70',
-        'level': 'Intermediate',
-        'url': 'https://www.cprogramming.com/',
-    },
-    {
-        'name': 'Dart',
-        'value': '90',
-        'level': 'Beginner',
-        'url': 'https://dart.dev/',
-    },
-    {
-        'name': 'Flutter',
-        'value': '90',
-        'level': 'Intermediate',
-        'url': 'https://flutter.dev/',
-    }
-]
+export const skills = ['JavaScript', 'ReactJS', 'Angular', 'Svelte', 'NodeJS', 'Golang', 'Python', 'Django', 'HTML', 'CSS', 'Git', 'Java', 'C', 'Dart', 'Flutter',]
 
 export const selectSkills = [
     {
@@ -381,7 +289,7 @@ export const selectSkills = [
     },
     {
         'name': 'Git',
-        'value': '90',
+        'value': '80',
         'level': 'Intermediate',
         'url': 'https://git-scm.com/',
     },
