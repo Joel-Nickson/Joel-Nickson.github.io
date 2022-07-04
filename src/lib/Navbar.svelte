@@ -1,7 +1,7 @@
 <script>
   import { isActiveData } from "./stores";
   let currlink = "About";
-  let navlink = ["About", "Resume", "Portfolio", "Blog", "Contact"];
+  let navlink = ["About", "Resume", "Portfolio", "Contact"];
   function change_page(e) {
     isActiveData.update((isactive) => {
       isactive[currlink.toLowerCase()] = "deactive";

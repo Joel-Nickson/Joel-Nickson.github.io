@@ -28,9 +28,9 @@
     <article class="portfolio {$isActiveData.portfolio}" data-page="portfolio">
       <Portfolio />
     </article>
-    <article class="blog {$isActiveData.blog}" data-page="blog">
+    <!-- <article class="blog {$isActiveData.blog}" data-page="blog">
       <Blog />
-    </article>
+    </article> -->
     <article class="contact {$isActiveData.contact}" data-page="contact">
       <Contact />
     </article>
