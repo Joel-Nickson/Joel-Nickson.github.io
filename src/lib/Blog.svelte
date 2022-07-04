@@ -8,7 +8,7 @@
       <a href="#">
         <figure class="blog-banner-box">
           <img
-            src="./src/assets/images/blog-1.jpg"
+            src="images/blog-1.jpg"
             alt="Design conferences in 2022"
             loading="lazy"
           />
@@ -36,7 +36,7 @@
       <a href="#">
         <figure class="blog-banner-box">
           <img
-            src="./src/assets/images/blog-2.jpg"
+            src="images/blog-2.jpg"
             alt="Best fonts every designer"
             loading="lazy"
           />
@@ -64,11 +64,7 @@
     <li class="blog-post-item">
       <a href="#">
         <figure class="blog-banner-box">
-          <img
-            src="./src/assets/images/blog-3.jpg"
-            alt="Design digest #80"
-            loading="lazy"
-          />
+          <img src="images/blog-3.jpg" alt="Design digest #80" loading="lazy" />
         </figure>
 
         <div class="blog-content">
@@ -94,7 +90,7 @@
       <a href="#">
         <figure class="blog-banner-box">
           <img
-            src="./src/assets/images/blog-4.jpg"
+            src="images/blog-4.jpg"
             alt="UI interactions of the week"
             loading="lazy"
           />
@@ -123,7 +119,7 @@
       <a href="#">
         <figure class="blog-banner-box">
           <img
-            src="./src/assets/images/blog-5.jpg"
+            src="images/blog-5.jpg"
             alt="The forgotten art of spacing"
             loading="lazy"
           />
@@ -151,11 +147,7 @@
     <li class="blog-post-item">
       <a href="#">
         <figure class="blog-banner-box">
-          <img
-            src="./src/assets/images/blog-6.jpg"
-            alt="Design digest #79"
-            loading="lazy"
-          />
+          <img src="images/blog-6.jpg" alt="Design digest #79" loading="lazy" />
         </figure>
 
         <div class="blog-content">

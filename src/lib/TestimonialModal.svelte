@@ -33,7 +33,7 @@
           data-modal-img
         />
       </figure>
-      <img src="./src/assets/images/icon-quote.svg" alt="quote icon" />
+      <img src="images/icon-quote.svg" alt="quote icon" />
     </div>
 
     <div class="modal-content">
