@@ -10,63 +10,41 @@ export const isActiveData = writable({
 
 export const portfolio_category = [
     "all",
-    "web design",
+    "web developement",
     "application",
-    "web development",
+    "artificial intelligence",
+    "other"
 ];
 export const portfolio_content = [
     {
-        datacategory: "web development",
+        datacategory: "search engine",
         src: "./src/assets/images/project-1.jpg",
-        alt: "finance",
-        target: "",
-    },
-    {
-        datacategory: "web development",
+        alt: "meilisearch",
+        target: "https://www.meilisearch.com/",
+    }, {
+        datacategory: "web developement",
         src: "./src/assets/images/project-2.png",
-        alt: "orizon",
-        target: "",
-    },
-    {
-        datacategory: "web design",
+        alt: "KEAM college predictor",
+        target: "https://github.com/FISAT-PROJECTS/keam-project",
+    }, {
+        datacategory: "web developement",
         src: "./src/assets/images/project-3.jpg",
-        alt: "fundo",
-        target: "",
-    },
-    {
+        alt: "telegom",
+        target: "https://github.com/Co-Science/tele-go-m",
+    }, {
         datacategory: "application",
         src: "./src/assets/images/project-4.png",
-        alt: "brawlhalla",
-        target: "",
-    },
-    {
-        datacategory: "web design",
-        src: "./src/assets/images/project-5.png",
-        alt: "dsm.",
-        target: "",
-    },
-    {
-        datacategory: "web design",
-        src: "./src/assets/images/project-6.png",
-        alt: "metaspark",
-        target: "",
-    },
-    {
-        datacategory: "web development",
-        src: "./src/assets/images/project-7.png",
-        alt: "summary",
-        target: "",
-    },
-    {
-        datacategory: "application",
-        src: "./src/assets/images/project-8.jpg",
-        alt: "task manager",
-        target: "",
-    },
-    {
-        datacategory: "web development",
+        alt: "libre-fit",
+        target: "https://github.com/HackOnTheWay",
+    }, {
+        datacategory: "artificial intelligence",
         src: "./src/assets/images/project-9.png",
-        alt: "arrival",
+        alt: "dragon a.i.",
+        target: "",
+    }, {
+        datacategory: "application",
+        src: "./src/assets/images/project-6.png",
+        alt: "Maze",
         target: "",
     },
 ];
@@ -137,8 +115,7 @@ export const education = [
             'Computer Architecture',
         ],
         'url': 'https://www.fisat.ac.in/',
-    },
-    {
+    }, {
         'name': 'Don Bosco Senior Secondary School',
         'shortname': 'Don Bosco',
         'location': 'Vaduthala',
@@ -168,7 +145,7 @@ export const experiences = [
         'type': 'Internship',
         'start': '11/21',
         'end': '02/22',
-        'description': 'Added functionality to return search results based on index for the Golang backend',
+        'description': 'Worked with react router and rxjs store',
         'url': 'https://verzeo.com/',
     },
 ]

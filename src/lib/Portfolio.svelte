@@ -3,6 +3,7 @@
   let currCategory = "all";
   const selectCategory = (e) =>
     (currCategory = e.target.innerText.toLowerCase());
+  const categorySet = new Set(portfolio_category);
 </script>
 
 <header>
@@ -24,10 +25,12 @@
   <ul class="project-list">
     {#each portfolio_content as item}
       <li
-        class="project-item  {item.datacategory === currCategory ||
-        currCategory === 'all'
+        class="project-item  {currCategory === 'other' &&
+        !categorySet.has(item.datacategory)
           ? 'active'
-          : ''}"
+          : item.datacategory === currCategory || currCategory === 'all'
+            ? 'active'
+            : ''}"
         data-filter-item
         data-category={item.datacategory}
       >
