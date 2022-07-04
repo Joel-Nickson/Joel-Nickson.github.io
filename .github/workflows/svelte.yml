@@ -5,9 +5,9 @@ name: Svelte CI/CD
 
 on:
   push:
-    branches: ["main", "build"]
+    branches: ["gh-pages"]
   pull_request:
-    branches: ["main"]
+    branches: ["gh-pages"]
 
 jobs:
   build:
