@@ -1,5 +1,13 @@
 <script lang="ts">
-  import { education, experiences, skills, selectSkills } from "./stores";
+  import { each } from "svelte/internal";
+
+  import {
+    education,
+    experiences,
+    skills,
+    selectSkills,
+    profile,
+  } from "./stores";
 
   let skill = selectSkills.sort((a, b) => {
     return parseInt(b.level) - parseInt(a.level);
@@ -27,8 +35,7 @@
         <span>{item.start} — {item.end}</span>
 
         <p class="timeline-text">
-          Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
-          atque corrupti, quos dolores et quas molestias exceptur.
+          {item.description}
         </p>
       </li>
     {/each}
@@ -47,13 +54,14 @@
   <ol class="timeline-list">
     {#each experiences as item}
       <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">{item.name}</h4>
+        <h4 class="h4 timeline-item-title">{item.name}, {item.role}</h4>
 
         <span>{item.start} — {item.end}</span>
 
         <p class="timeline-text">
-          Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
-          atque corrupti, quos dolores et quas molestias exceptur.
+          {#each item.description as desc}
+            {desc} <br />
+          {/each}
         </p>
       </li>
     {/each}

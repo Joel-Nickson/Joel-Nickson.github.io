@@ -13,7 +13,8 @@ export const portfolio_category = [
     "web developement",
     "application",
     "artificial intelligence",
-    "other"
+    "other",
+    "coming soon",
 ];
 export const portfolio_content = [
     {
@@ -38,13 +39,18 @@ export const portfolio_content = [
         target: "https://github.com/HackOnTheWay",
     }, {
         datacategory: "artificial intelligence",
-        src: "./src/assets/images/project-9.png",
-        alt: "dragon a.i.",
+        src: "./src/assets/images/project-7.png",
+        alt: "Video Summarizer",
         target: "",
     }, {
         datacategory: "application",
         src: "./src/assets/images/project-6.png",
         alt: "Maze",
+        target: "",
+    }, {
+        datacategory: "coming soon",
+        src: "./src/assets/images/project-9.png",
+        alt: "dragon a.i.",
         target: "",
     },
 ];
@@ -87,6 +93,7 @@ export const profile = {
     'name': 'Joel Nickson',
     'email': 'notjoeln@gmail.com',
     'mobile': '(+91) XXX-XXX-XXXX',
+    'role': 'Web Developer',
     'mobilenowithoutspace': '+91XXXXXXXXXX',
     'linkedin': 'https://www.linkedin.com/in/joel-nickson-0a27721a5/',
     'github': 'http://github.com/Joel-Nickson',
@@ -99,8 +106,6 @@ export const education = [
         'name': 'Federal Institute of Science And Technology',
         'shortname': 'FISAT',
         'location': 'Angamaly',
-        'degree': 'Bachelor of Technology',
-        'major': 'Computer Science',
         'start': '2019',
         'end': '2023',
         'courses': [
@@ -112,42 +117,42 @@ export const education = [
             'Software Engineering',
             'Computer Networks',
             'Computer Graphics',
-            'Computer Architecture',
+            'Formal Language and Automata Theory',
+            'Compiler Design',
         ],
+        'description': 'B.Tech in Computer Science & Engineering with major in Machine Learning',
         'url': 'https://www.fisat.ac.in/',
     }, {
         'name': 'Don Bosco Senior Secondary School',
         'shortname': 'Don Bosco',
         'location': 'Vaduthala',
-        'degree': 'Higher Secondary',
-        'major': 'Computer Science',
         'start': '2017',
         'end': '2019',
+        'description': 'High School with major in Computer Science',
         'url': 'https://donboscoschoolvaduthala.edu.in/',
     },
-    // {
-    //     'name': 'Don Bosco Senior Secondary School',
-    //     'shortname': 'Don Bosco',
-    //     'location': 'Vaduthala',
-    //     'degree': 'High School',
-    //     'major': '',
-    //     'start': '',
-    //     'end': '2017',
-    //     'url': 'https://donboscoschoolvaduthala.edu.in/',
-    // },
 ]
 
 export const experiences = [
     {
+        'name': 'ACM FISAT',
+        'location': 'Angamaly, Kerala, India',
+        'role': 'Event Head',
+        'type': 'Volunteer',
+        'start': '11/21',
+        'end': 'present',
+        'description': ['Designed, Developed & Coordinated the website for the ICEFOSS, an open source initiative from FISAT CSE', 'Designed & Developed the website for the Hackfit, a national Hackathon conducted by ICEFOSS', 'Conducted training sessions for python, git, and basics of web development for junior CSE students'],
+        'url': 'https://verzeo.com/',
+    }, {
         'name': 'Verzeo',
         'location': 'Bengaluru, Karnataka, India',
         'role': 'ReactJS Intern',
         'type': 'Internship',
         'start': '11/21',
         'end': '02/22',
-        'description': 'Worked with react router and rxjs store',
+        'description': ['Created a website using React router', 'Designed and coded a React-based “To Do” web app to enable users to keep track of tasks', 'Worked with react redux to store data in the application'],
         'url': 'https://verzeo.com/',
-    },
+    }
 ]
 
 export const projects = [

@@ -1,28 +1,22 @@
 <script>
   import { profile } from "./stores";
-  let {
-    name,
-    email,
-    mobile,
-    mobilenowithoutspace,
-    linkedin,
-    github,
-    twitter,
-    location,
-  } = profile;
   let isMobileMenu = "active";
 </script>
 
 <aside class="sidebar {isMobileMenu}" data-sidebar>
   <div class="sidebar-info">
     <figure class="avatar-box">
-      <img src="./src/assets/images/my-avatar.png" alt={name} width="80" />
+      <img
+        src="./src/assets/images/my-avatar.png"
+        alt={profile.name}
+        width="80"
+      />
     </figure>
 
     <div class="info-content">
-      <h1 class="name" title={name}>{name}</h1>
+      <h1 class="name" title={profile.name}>{profile.name}</h1>
 
-      <p class="title">Web developer</p>
+      <p class="title">{profile.role}</p>
     </div>
 
     <button
@@ -52,7 +46,9 @@
         <div class="contact-info">
           <p class="contact-title">Email</p>
 
-          <a href="mailto:{email}" class="contact-link">{email}</a>
+          <a href="mailto:{profile.email}" class="contact-link"
+            >{profile.email}</a
+          >
         </div>
       </li>
 
@@ -64,7 +60,9 @@
         <div class="contact-info">
           <p class="contact-title">Phone</p>
 
-          <a href="tel:{mobilenowithoutspace}" class="contact-link">{mobile}</a>
+          <a href="tel:{profile.mobilenowithoutspace}" class="contact-link"
+            >{profile.mobile}</a
+          >
         </div>
       </li>
 
@@ -88,7 +86,7 @@
         <div class="contact-info">
           <p class="contact-title">Location</p>
 
-          <address>{location}</address>
+          <address>{profile.location}</address>
         </div>
       </li>
     </ul>
@@ -97,19 +95,19 @@
 
     <ul class="social-list">
       <li class="social-item">
-        <a href={github} class="social-link">
+        <a href={profile.github} class="social-link">
           <ion-icon name="logo-github" />
         </a>
       </li>
 
       <li class="social-item">
-        <a href={twitter} class="social-link">
+        <a href={profile.twitter} class="social-link">
           <ion-icon name="logo-twitter" />
         </a>
       </li>
 
       <li class="social-item">
-        <a href={linkedin} class="social-link">
+        <a href={profile.linkedin} class="social-link">
           <ion-icon name="logo-linkedin" />
         </a>
       </li>
