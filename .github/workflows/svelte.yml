@@ -5,7 +5,7 @@ name: Svelte CI/CD
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "build"]
   pull_request:
     branches: ["main"]
 
