@@ -19,37 +19,37 @@ export const portfolio_category = [
 export const portfolio_content = [
     {
         datacategory: "search engine",
-        src: "./src/assets/images/project-1.jpg",
+        src: "images/project-1.jpg",
         alt: "meilisearch",
         target: "https://www.meilisearch.com/",
     }, {
         datacategory: "web developement",
-        src: "./src/assets/images/project-2.png",
+        src: "images/project-2.png",
         alt: "KEAM college predictor",
         target: "https://github.com/FISAT-PROJECTS/keam-project",
     }, {
         datacategory: "web developement",
-        src: "./src/assets/images/project-3.jpg",
+        src: "images/project-3.jpg",
         alt: "telegom",
         target: "https://github.com/Co-Science/tele-go-m",
     }, {
         datacategory: "application",
-        src: "./src/assets/images/project-4.png",
+        src: "images/project-4.png",
         alt: "libre-fit",
         target: "https://github.com/HackOnTheWay",
     }, {
         datacategory: "artificial intelligence",
-        src: "./src/assets/images/project-7.png",
+        src: "images/project-7.png",
         alt: "Video Summarizer",
         target: "",
     }, {
         datacategory: "application",
-        src: "./src/assets/images/project-6.png",
+        src: "images/project-6.png",
         alt: "Maze",
         target: "",
     }, {
         datacategory: "coming soon",
-        src: "./src/assets/images/project-9.png",
+        src: "images/project-9.png",
         alt: "dragon a.i.",
         target: "",
     },
@@ -59,28 +59,28 @@ export const modalContent = writable({ src: "", alt: "", text: "", isActive: fal
 
 export const testimonials = [
     {
-        src: "./src/assets/images/avatar-1.png",
+        src: "images/avatar-1.png",
         alt: "Daniel lewis",
         testimonial: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
         voluptate, assumenda tempore sed saepe eaque odio a delectus enim
         architecto dolor omnis officia quidem nesciunt perspiciatis voluptates
         dolores consequuntur dolorum?`,
     }, {
-        src: "./src/assets/images/avatar-2.png",
+        src: "images/avatar-2.png",
         alt: "Jessica miller",
         testimonial: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
         voluptate, assumenda tempore sed saepe eaque odio a delectus enim
         architecto dolor omnis officia quidem nesciunt perspiciatis voluptates
         dolores consequuntur dolorum?`,
     }, {
-        src: "./src/assets/images/avatar-3.png",
+        src: "images/avatar-3.png",
         alt: "Emily evans",
         testimonial: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
         voluptate, assumenda tempore sed saepe eaque odio a delectus enim
         architecto dolor omnis officia quidem nesciunt perspiciatis voluptates
         dolores consequuntur dolorum?`,
     }, {
-        src: "./src/assets/images/avatar-4.png",
+        src: "images/avatar-4.png",
         alt: "Henry william",
         testimonial: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
         voluptate, assumenda tempore sed saepe eaque odio a delectus enim
@@ -155,22 +155,22 @@ export const experiences = [
 ]
 
 export const services = [{
-    src: "./src/assets/images/icon-design.svg",
+    src: "images/icon-design.svg",
     alt: "design icon",
     title: "Web design",
     desc: 'The most modern and high-quality design made at a professional level.'
 }, {
-    src: "./src/assets/images/icon-dev.svg",
+    src: "images/icon-dev.svg",
     alt: "Web development icon",
     title: 'Web development',
     desc: 'High-quality development of sites at the professional level.'
 }, {
-    src: "./src/assets/images/icon-photo.svg",
+    src: "images/icon-photo.svg",
     alt: "camera icon",
     title: 'Artificial Intelligence',
     desc: 'Learning ML and DL from deeplearning.ai & MIT OCW.'
 }, {
-    src: "./src/assets/images/icon-app.svg",
+    src: "images/icon-app.svg",
     alt: "mobile app icon",
     title: 'Mobile apps',
     desc: 'Basic development of applications for iOS and Android.'

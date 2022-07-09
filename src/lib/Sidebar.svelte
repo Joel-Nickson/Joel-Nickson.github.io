@@ -11,11 +11,7 @@
 <aside class="sidebar {isMobileMenu}" data-sidebar>
   <div class="sidebar-info">
     <figure class="avatar-box">
-      <img
-        src="./src/assets/images/my-avatar2.png"
-        alt={profile.name}
-        width="80"
-      />
+      <img src="images/my-avatar2.png" alt={profile.name} width="80" />
     </figure>
 
     <div class="info-content">
