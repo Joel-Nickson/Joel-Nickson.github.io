@@ -5,9 +5,9 @@ name: Svelte CI/CD
 
 on:
   push:
-    branches: ["main"]
+    branches: ["gh-pages"]
   pull_request:
-    branches: ["main"]
+    branches: ["gh-pages"]
 
 jobs:
   build:
@@ -27,4 +27,3 @@ jobs:
           cache: "npm"
       - run: npm i
       - run: npm run predeploy
-      - run: npm run deploy
