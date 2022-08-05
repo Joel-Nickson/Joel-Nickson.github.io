@@ -1,11 +1,6 @@
 <script>
-  import { profile } from "./stores";
-  let mobilenowithoutspace = profile.mobile
-    .replaceAll("-", "")
-    .replaceAll(" ", "")
-    .replace(")", "")
-    .replace("(", "");
-  let isMobileMenu = "active";
+  import { profile, sideBarInfo } from "./stores";
+  let isMobileMenu = "deactive";
 </script>
 
 <aside class="sidebar {isMobileMenu}" data-sidebar>
@@ -39,79 +34,30 @@
     <div class="separator" />
 
     <ul class="contacts-list">
-      <li class="contact-item">
-        <div class="icon-box">
-          <ion-icon name="mail-outline" />
-        </div>
+      {#each sideBarInfo.profile as item}
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name={item.icon} />
+          </div>
 
-        <div class="contact-info">
-          <p class="contact-title">Email</p>
-
-          <a href="mailto:{profile.email}" class="contact-link"
-            >{profile.email}</a
-          >
-        </div>
-      </li>
-
-      <li class="contact-item">
-        <div class="icon-box">
-          <ion-icon name="phone-portrait-outline" />
-        </div>
-
-        <div class="contact-info">
-          <p class="contact-title">Phone</p>
-
-          <a href="tel:{mobilenowithoutspace}" class="contact-link"
-            >{profile.mobile}</a
-          >
-        </div>
-      </li>
-
-      <li class="contact-item">
-        <div class="icon-box">
-          <ion-icon name="calendar-outline" />
-        </div>
-
-        <div class="contact-info">
-          <p class="contact-title">Birthday</p>
-
-          <time datetime="2000-09-29">Sep 29, 2000</time>
-        </div>
-      </li>
-
-      <li class="contact-item">
-        <div class="icon-box">
-          <ion-icon name="location-outline" />
-        </div>
-
-        <div class="contact-info">
-          <p class="contact-title">Location</p>
-
-          <address>{profile.location}</address>
-        </div>
-      </li>
+          <div class="contact-info">
+            <p class="contact-title">{item.name}</p>
+            <p class="contact-link">{item.value}</p>
+          </div>
+        </li>
+      {/each}
     </ul>
 
     <div class="separator" />
 
     <ul class="social-list">
-      <li class="social-item">
-        <a href={profile.github} class="social-link">
-          <ion-icon name="logo-github" />
-        </a>
-      </li>
-
-      <li class="social-item">
-        <a href={profile.twitter} class="social-link">
-          <ion-icon name="logo-twitter" />
-        </a>
-      </li>
-
-      <li class="social-item">
-        <a href={profile.linkedin} class="social-link">
-          <ion-icon name="logo-linkedin" />
-        </a>
-      </li>
+      {#each sideBarInfo.social as item}
+        <li class="social-item">
+          <a href={item.value} class="social-link" target="_blank">
+            <ion-icon name={item.icon} />
+          </a>
+        </li>
+      {/each}
     </ul>
   </div>
 </aside>
