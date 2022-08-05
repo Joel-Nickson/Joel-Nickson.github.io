@@ -23,23 +23,25 @@
     {/each}
   </ul>
   <ul class="project-list">
-    {#each portfolio_content as item}
+    {#each portfolio_content as item, index}
       <li
         class="project-item  {currCategory === 'other' &&
         !categorySet.has(item.datacategory)
           ? 'active'
           : item.datacategory === currCategory || currCategory === 'all'
-            ? 'active'
-            : ''}"
+          ? 'active'
+          : ''}"
         data-filter-item
         data-category={item.datacategory}
       >
-        <a href={item.target !== "" ? item.target : "#"}>
+        <a href={item.target !== "" ? item.target : "#"} target="_blank">
           <figure class="project-img">
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline" />
             </div>
-
+            <div class="modal-close-btn">
+              {index + 1}
+            </div>
             <img src={item.src} alt={item.alt} loading="lazy" />
           </figure>
 
