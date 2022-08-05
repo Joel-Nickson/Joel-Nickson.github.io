@@ -22,9 +22,9 @@
     with Flutter, React, Node & Flask , but I consider working with these as a
     side hassel. I am always looking to improve my skills and learn new things.
     And even though I am not very strong at it, I would love to work on ML
-    related projects more. But more than that my interests are in building.
-    Something that would benefit everyone equally.
-  </p>
+    related projects more. But more than that my interests are in building
+    something that would benefit everyone equally.
+  </p>  
 </section>
 <Contact />
 <!-- <Services /> -->
