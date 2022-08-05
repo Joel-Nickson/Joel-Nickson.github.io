@@ -501,13 +501,16 @@ main {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: calc(100% - 20px);
     background: hsla(240, 1%, 17%, 0.75);
     backdrop-filter: blur(10px);
-    border: 1px solid var(--jet);
+    border: 5px solid var(--jet);
     border-radius: 12px 12px 0 0;
     box-shadow: var(--shadow-2);
     z-index: 5;
+    margin: 0 10px 5px 10px;
+    height: 60px;
+    line-height: 0.5rem;
 }
 
 .navbar-list {
@@ -969,7 +972,7 @@ main {
 
 
 /*-----------------------------------*\
-    #PORTFOLIO
+    #project
   \*-----------------------------------*/
 
 .filter-list {
@@ -1398,7 +1401,7 @@ textarea.form-input::-webkit-resizer {
 
 
     /**
-     * #PORTFOLIO, BLOG 
+     * #project, BLOG 
      */
 
     .project-img,
@@ -1549,6 +1552,7 @@ textarea.form-input::-webkit-resizer {
      */
 
     .navbar {
+        margin: 0;
         border-radius: 20px 20px 0 0;
     }
 
@@ -1706,7 +1710,7 @@ textarea.form-input::-webkit-resizer {
 
 
     /**
-     * #PORTFOLIO, BLOG
+     * #project, BLOG
      */
 
     .project-img,
@@ -1821,7 +1825,7 @@ textarea.form-input::-webkit-resizer {
 
 
     /**
-     * PORTFOLIO
+     * project
      */
 
     .article-title {
@@ -1856,7 +1860,7 @@ textarea.form-input::-webkit-resizer {
         color: var(--orange-yellow-crayola);
     }
 
-    /* portfolio and blog grid */
+    /* project and blog grid */
 
     .project-list,
     .blog-posts-list {
@@ -1941,6 +1945,7 @@ textarea.form-input::-webkit-resizer {
      */
 
     .navbar {
+        margin: 0;
         position: absolute;
         bottom: auto;
         top: 0;
@@ -1989,7 +1994,7 @@ textarea.form-input::-webkit-resizer {
 
 
     /**
-     * PORTFOLIO
+     * project
      */
 
     .project-list {
