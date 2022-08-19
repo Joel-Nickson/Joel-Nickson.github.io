@@ -12,7 +12,7 @@
 
 <section class="about-text">
   <p>
-    I'm a passionate amateur student who loves building projects, sharing
+    I'm a passionate student who loves building projects, sharing
     knowledge and contributing to the Open Source Community. I enjoy the art of
     learning and then using it in my day to day life.
   </p>
